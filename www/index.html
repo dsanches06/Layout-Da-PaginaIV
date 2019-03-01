@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto</title>
+    <link rel="stylesheet" href="styles/bootstrap/css/bootstrap.css" />
+     <link rel="stylesheet" href="styles/site.css" />
+      <link rel="stylesheet" href="styles/styles.css" />
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+        #primary_nav_wrap {
+            margin-top: 15px
+        }
+
+            #primary_nav_wrap ul {
+                list-style: none;
+                position: relative;
+                float: left;
+                margin: 0;
+                padding: 0
+            }
+
+                #primary_nav_wrap ul a {
+                    display: block;
+                    color: #333;
+                    text-decoration: none;
+                    line-height: 32px;
+                    padding: 0 15px;
+                    font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+                }
+
+                #primary_nav_wrap ul li {
+                    position: relative;
+                    float: left;
+                    margin: 0;
+                    padding: 0
+                }
+
+                    #primary_nav_wrap ul li.current-menu-item {
+                        background: #ddd
+                    }
+
+                    #primary_nav_wrap ul li:hover {
+                        background: #1874cc
+                    }
+
+                #primary_nav_wrap ul ul {
+                    display: none;
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    background: #0c80ef;
+                    padding: 0
+                }
+
+                    #primary_nav_wrap ul ul li {
+                        float: none;
+                        width: 200px
+                    }
+
+                    #primary_nav_wrap ul ul a {
+                        line-height: 120%;
+                        padding: 10px 15px
+                    }
+
+                    #primary_nav_wrap ul ul ul {
+                        top: 0;
+                        left: 100%
+                    }
+
+                #primary_nav_wrap ul li:hover > ul {
+                    display: block;
+                }
+    </style>
+</head>
+<body>
+
+<div class="navbar-fixed-top w3-text-theme w3-theme-d3" style="box-shadow: 1px 1px 1px 1px #888888;">
+                <div class="container-fluid" style="margin-left: 20px;">
+                    <div class="navbar-header">
+                   <button type="button" class="navbar-toggle w3-white" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar w3-black"></span>
+                            <span class="icon-bar w3-black"></span>
+                            <span class="icon-bar w3-black"></span>
+                        </button>
+                      <h1 class="logo">
+                        <a class="navbar-brand w3-text-white"  title="Projeto" href="index.html">Projeto</a>
+                             </h1>
+                    </div>
+
+                    <div class="navbar-collapse collapse" style="float: right; margin-right: 250px;">
+                        <nav id="primary_nav_wrap" class="navbar">
+                        <ul class="nav navbar-nav">
+                            <li><a class="w3-text-white">Associar Horario</a></li>
+                                <li><a>Vacinas</a></li>
+                                <li><a>Eventos</a></li>
+                                <li>
+                                    <a>Estatisticas</a>
+                                    <ul>
+                                        <li><a>Estatisticas Eventos</a></li>
+                                        <li><a>Estatisticas Adoção</a></li>
+                                        <li><a>Estatisticas Cães</a></li>
+                                    </ul>
+                                </li>
+                                <li><a>Apadrinhamentos</a></li>
+                                <li><a>Socios</a></li>
+                                <li><a>Voluntarios</a></li>
+                        </ul>
+                    </nav>
+                    </div>  
+    </div>
+            </div>
+            <div id="MasterContainer" class="container body-content">
+             <div id="location" style="display:block">
+<aside class="location">
+        <h2>Our Location</h2>
+        <p>Campus do IPS - Estefanilha, 2910-761 Setúbal</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121.5068961085753!2d-8.840972685901361!3d38.52208197963026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1937b2c60f8f47%3A0xa0df10aa0caa2efa!2sInstituto+Polit%C3%A9cnico+de+Set%C3%BAbal!5e0!3m2!1spt-PT!2spt!4v1541927343190"></iframe>
+      <h2>Contacts</h2>
+      <ul>
+        <li><i class="fa fa-phone fa-lg"></i> (+351) 123456789</li>
+        <li><i class="fa fa-whatsapp fa-lg"></i> (+351) 123456789</li>
+        <li><i class="fa fa-envelope fa-lg"></i> est@ips.pt</li>
+      </ul>
+      </aside>
+             </div>
+                
+               
+            </div>
+             <footer class="w3-theme-dark w3-center" style="position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;">
+                   <div class="social-icons">
+                <a href="#" class="btn-facebook"><i class="fa fa-facebook fa-lg"></i></a>
+                <a href="#" class="btn-twitter"><i class="fa fa-twitter fa-lg"></i></a>
+                <a href="#" class="btn-google"><i class="fa fa-google fa-lg"></i></a>
+            </div>
+                </footer>
+           
+</body>
+</html>

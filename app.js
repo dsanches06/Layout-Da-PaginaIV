@@ -9,7 +9,7 @@ var options = {
         "document": "index.html",
         "port": 8081,
         "favicon": ""
-    },
+    }, 
     "extensions": {
         "txt": "text/plain",
         "htm": "text/html",
